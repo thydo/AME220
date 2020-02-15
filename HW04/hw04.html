@@ -58,10 +58,10 @@
     margin-bottom: 0.25%;
     padding: 1%;
   }
-  label: hover {
+  label:hover {
     background: #a3c2c2;
   }
-  input: checked + label {
+  input:checked+label {
     background: #a3c2c2;
     color: white;
   }
@@ -70,13 +70,19 @@
     height: 0px;
     overflow: hidden;
   }
-  input: checked article {
+  input:checked article {
   }
-  input: checked ~ article{
-    height: .25em;
+  input:checked~article{
+    height: auto;
   }
-  article li, p{
+  article li{
     margin-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  P{
+    margin-left: 2%;
+    margin-right: 2%;
   }
   table{
     width: 100%;
@@ -153,7 +159,7 @@
         </ul>
       </article>
     </div>
-        
+
       </div>
   </body>
   </html>
